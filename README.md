@@ -8,7 +8,7 @@ This project implements an automated license plate recognition (ALPR) system usi
 Train YOLOv8 for License Plate Detection – A custom YOLOv8 model is trained on a labeled dataset of license plates. Run Inference on Test Images – The trained model is used to detect license plates in new images. Extract the Most Confident Bounding Box – The detection with the highest confidence score is selected. Apply OCR for Text Recognition – The detected license plate region is passed to EasyOCR to extract the alphanumeric characters. Display Results – The image is displayed with bounding boxes and recognized text.
 
 ## Dataset
-The model is trained using a custom dataset that includes annotated images of license plates which was downloaded from roboflow. The dataset is defined in a YOLO format YAML file, specifying training and validation image directories.
+The model is trained using a custom dataset that includes 923 annotated images of license plates which was downloaded from roboflow. The dataset is defined in a YOLO format YAML file, specifying training and validation image directories.
 
 ### Dataset link: 
 https://universe.roboflow.com/janet-rini-eaojj/license-plate-detection-tdv0k
